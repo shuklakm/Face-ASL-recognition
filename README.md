@@ -22,7 +22,7 @@ git clone https://github.com/your_username/DroneASL.git
 ```
 
 ```bash
-git checkout monika
+git checkout main
 git pull
 ```
 Create your branch
