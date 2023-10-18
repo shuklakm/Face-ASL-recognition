@@ -1,0 +1,22 @@
+# steve.yaml
+
+# Parameters
+nc: 2  # Number of classes
+names: ['Monika', 'Trang']  # Class names
+
+# Paths for training and validation datasets
+# train: ./monika/images/train/
+# val: ./monika/images/val
+
+train: /Users/kajalshukla/Desktop/ASL/tello_camera/data/images/train
+val: /Users/kajalshukla/Desktop/ASL/tello_camera/data/images/val
+
+# train: C:/Users/sbarr/Downloads/Summer-Drone-Capstone/Capstone-2023---Drones/yolov5/steve/images/train/
+# val: C:/Users/sbarr/Downloads/Summer-Drone-Capstone/Capstone-2023---Drones/yolov5/steve/images/train/
+
+# Number of channels, for RGB images it's 3
+channels: 3
+
+
+
+# python train.py --img 640 --batch 16 --epochs 100 --data ../object_detection.yaml --cfg ./models/yolov5s.yaml
