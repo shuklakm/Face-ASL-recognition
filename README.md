@@ -5,12 +5,29 @@ This project aims to provide a solution for real-time American Sign Language (AS
 The system promises a transformative solution for the deaf community, enabling more seamless communication in diverse scenarios like travel, search and rescue operations, and more.
 
 ### Features
-Real-time face detection using YOLOv5.
-Face tracking to keep signer's face (and hands) centered.
-Integration with ASL gesture recognition (future scope).
+1. Real-time face detection using YOLOv5.
+2. Face tracking to keep signer's face (and hands) centered.
+3. Integration with ASL gesture recognition (future scope).
+4. Text to Speech
 
 ### Requirements
-Python 3.x
-OpenCV
-Torch
-djitellopy (for Tello drone integration)
+1. Python 3.x
+2. OpenCV
+3. Torch
+4. djitellopy (for Tello drone integration)
+
+## Set Up
+```bash
+git clone https://github.com/your_username/DroneASL.git
+```
+
+```bash
+git checkout monika
+git pull
+```
+Create your branch
+```bash
+git checkout -b <<name>>
+```
+
+
