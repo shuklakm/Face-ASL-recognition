@@ -18,7 +18,7 @@ The system promises a transformative solution for the deaf community, enabling m
 
 ## Set Up
 ```bash
-git clone https://github.com/your_username/DroneASL.git
+git clone https://github.com/shuklakm/Face-ASL-recognition.git
 ```
 
 ```bash
