@@ -29,5 +29,9 @@ Create your branch
 ```bash
 git checkout -b <<name>>
 ```
+Merge Main branch to your brach 
+```bash
+git merge main
+```
 
 
